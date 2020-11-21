@@ -15,6 +15,7 @@
 
 
 cat >> .config << EOF
+CONFIG_PACKAGE_luci=y
 CONFIG_PACKAGE_luci-app-ssr-plus=y
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y
